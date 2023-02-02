@@ -1,0 +1,27 @@
+.heade {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: maroon;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .we{
+    color: whitesmoke;
+    margin-left:550px;
+  }
+  .w{
+    
+    color: whitesmoke;
+    margin-left: 70px;
+  }
+  .q{
+    margin-top: 10px;
+  }
+  .h{
+    color: black;
+  }
+  .po{
+    margin-left: 20px;
+  }

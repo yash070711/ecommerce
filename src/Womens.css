@@ -1,0 +1,27 @@
+.shoes1{
+    background:white;
+    border: 1px solid;
+    margin-left: 20px;
+    color: black;
+    width: 200px;
+    height: 30px;
+    margin-top: 05px;
+    margin-bottom: 10px;
+
+}
+.sat1{
+    background:white;
+    border: 1px solid;
+    margin-left: 40px;
+    color: black;
+    width: 200px;
+    height: 30px;
+}
+.img{
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+.h{
+    color: black;
+  }
