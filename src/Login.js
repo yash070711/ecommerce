@@ -20,7 +20,8 @@ function Login() {
                 history('/')
             })
             .catch(error => alert(error.message))
-    }
+    
+        }
     
     const register = e => {
         e.preventDefault();

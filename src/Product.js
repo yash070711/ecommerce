@@ -6,6 +6,9 @@ import{useDispatch} from 'react-redux';
 function Product({  id,title, image, price, discount}) {
  
   const dispatch=useDispatch()
+  function jacob(){
+    alert("your item in cart");
+  }
   return (
     <div className="product">
 
@@ -23,7 +26,7 @@ function Product({  id,title, image, price, discount}) {
             title :title,
             image:image, 
             price: price,
-            discount:discount,}})} ><b>SHOP NOW</b></button>
+            discount:discount,}},jacob())} ><b>SHOP NOW</b></button>
     
 </div>
 

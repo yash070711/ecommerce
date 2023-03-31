@@ -9,9 +9,11 @@ function Subtotal() {
     <div className='subtotal'>
         <div className='subtotal_area'>
             <p className='sub'>Subtotal ({cart.cart.length} Products) Price <b1 className='defd1'>₹:{getTotal(cart.cart)} </b1></p>
-            <p> SHIPPING COSTS  :<b2 className='defd2'>       ₹ 0 </b2></p>
+            <p> SHIPPING COSTS  :<b2 className='defd2'>        ₹ 50 </b2></p>
             <hr/>
-            <p> <b>GRAND TOTALPRICES</b> INCLUDE GST <b3 className='defd3'>₹:{getTotal(cart.cart)} </b3>   </p>
+            {/* {getTotal(cart.cat)>1700 ?getTotal(cart.car)+50 :getTotal(cart.cart)} */}
+
+            <p> <b>GRAND TOTALPRICES</b> INCLUDE GST <b3 className='defd3'>₹:{getTotal(cart.cart)+50} </b3>   </p>
             <button  className='byg' >Proceed to checkout</button>
 
         </div>

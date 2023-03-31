@@ -4,7 +4,7 @@ const initialState={
 
 export const getTotal=(cart) =>{
     return (
-        cart.reduce((amount,item) =>parseInt (item.price)+amount,0
+        cart.reduce((amount,item) =>parseInt(item.price)+amount,0
     ) )
 }
 /*export function shipping(getTotal,cart){
