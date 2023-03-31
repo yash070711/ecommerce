@@ -7,7 +7,7 @@ import { removefromcart } from './cartAction'
 import DeleteIcon from '@mui/icons-material/Delete';
 import "./Checkout.css";
 import Subtotal from './Subtotal'
-function Checkout() {
+function Checkout({  id,title, image, price, discount}) {
     const cart = useSelector(state => state.cart)
     const dispatch =useDispatch()
     return (
@@ -25,7 +25,22 @@ function Checkout() {
                                 <h4>{item.title}
                                     </h4>
                                     <p> Price ₹ : {item.price} </p>
-                                    
+     
+                                    <div className="product">
+
+
+
+</div>
+<div>
+<button  className="black" onClick= {() => dispatch( {     type:"Add_item_To_Cart",
+        item:{
+              id:id,
+            title :title,
+            image:image, 
+            price: price,
+            discount:discount,}})} ><b>+</b></button>
+    
+</div>
                                     <button className='bno' onClick={() => dispatch( {
                                           type:"Remove item from cart",
                                           

@@ -27,6 +27,7 @@ function Product({  id,title, image, price, discount}) {
             image:image, 
             price: price,
             discount:discount,}},jacob())} ><b>SHOP NOW</b></button>
+
     
 </div>
 
